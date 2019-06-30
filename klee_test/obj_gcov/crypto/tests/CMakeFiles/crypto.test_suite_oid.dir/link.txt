@@ -1,0 +1,1 @@
+/usr/bin/gcc  -g -fprofile-arcs -ftest-coverage -Wno-unused-function   CMakeFiles/crypto.test_suite_oid.dir/test_suite_oid.c.o  -o crypto.test_suite_oid -rdynamic ../library/libmbedcrypto.a 

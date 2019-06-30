@@ -1,0 +1,1 @@
+/usr/bin/gcc  -g -fprofile-arcs -ftest-coverage -Wno-unused-function   CMakeFiles/crypto.test_suite_aes.ofb.dir/test_suite_aes.ofb.c.o  -o crypto.test_suite_aes.ofb -rdynamic ../library/libmbedcrypto.a 

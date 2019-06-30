@@ -1,0 +1,1 @@
+/usr/bin/gcc  -g -fprofile-arcs -ftest-coverage   CMakeFiles/pem2der.dir/pem2der.c.o  -o pem2der -rdynamic ../../library/libmbedtls.a ../../library/libmbedx509.a ../../crypto/library/libmbedcrypto.a 

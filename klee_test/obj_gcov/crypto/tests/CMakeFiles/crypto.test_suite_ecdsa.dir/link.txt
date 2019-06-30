@@ -1,0 +1,1 @@
+/usr/bin/gcc  -g -fprofile-arcs -ftest-coverage -Wno-unused-function   CMakeFiles/crypto.test_suite_ecdsa.dir/test_suite_ecdsa.c.o  -o crypto.test_suite_ecdsa -rdynamic ../library/libmbedcrypto.a 

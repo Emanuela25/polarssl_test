@@ -1,0 +1,1 @@
+/usr/bin/gcc  -g -fprofile-arcs -ftest-coverage -Wno-unused-function   CMakeFiles/crypto.test_suite_cipher.gcm.dir/test_suite_cipher.gcm.c.o  -o crypto.test_suite_cipher.gcm -rdynamic ../library/libmbedcrypto.a 

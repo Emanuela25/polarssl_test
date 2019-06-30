@@ -1,0 +1,1 @@
+/usr/bin/gcc  -g -fprofile-arcs -ftest-coverage -Wno-unused-function   CMakeFiles/crypto.test_suite_cipher.chacha20.dir/test_suite_cipher.chacha20.c.o  -o crypto.test_suite_cipher.chacha20 -rdynamic ../library/libmbedcrypto.a 

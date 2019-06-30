@@ -1,0 +1,1 @@
+/usr/bin/gcc  -g -fprofile-arcs -ftest-coverage   CMakeFiles/ecdh_curve25519.dir/ecdh_curve25519.c.o  -o ecdh_curve25519 -rdynamic ../../library/libmbedtls.a ../../library/libmbedx509.a ../../crypto/library/libmbedcrypto.a 

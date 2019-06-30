@@ -1,0 +1,1 @@
+/usr/bin/gcc  -g -fprofile-arcs -ftest-coverage   CMakeFiles/mini_client.dir/mini_client.c.o  -o mini_client -rdynamic ../../library/libmbedtls.a ../../library/libmbedx509.a ../../crypto/library/libmbedcrypto.a 

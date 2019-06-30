@@ -1,0 +1,1 @@
+/usr/bin/gcc  -g -fprofile-arcs -ftest-coverage   CMakeFiles/cert_write.dir/cert_write.c.o  -o cert_write -rdynamic ../../library/libmbedtls.a ../../library/libmbedx509.a ../../crypto/library/libmbedcrypto.a 

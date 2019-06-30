@@ -1,0 +1,1 @@
+/usr/bin/gcc  -g -fprofile-arcs -ftest-coverage   CMakeFiles/ssl_pthread_server.dir/ssl_pthread_server.c.o  -o ssl_pthread_server -rdynamic ../../library/libmbedtls.a -lpthread ../../library/libmbedx509.a ../../crypto/library/libmbedcrypto.a 

@@ -1,0 +1,1 @@
+/usr/bin/gcc  -g -fprofile-arcs -ftest-coverage   CMakeFiles/mpi_demo.dir/mpi_demo.c.o  -o mpi_demo -rdynamic ../../library/libmbedtls.a ../../library/libmbedx509.a ../../crypto/library/libmbedcrypto.a 

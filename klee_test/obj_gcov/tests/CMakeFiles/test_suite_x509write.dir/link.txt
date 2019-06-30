@@ -1,0 +1,1 @@
+/usr/bin/gcc  -g -fprofile-arcs -ftest-coverage -Wno-unused-function   CMakeFiles/test_suite_x509write.dir/test_suite_x509write.c.o  -o test_suite_x509write -rdynamic ../library/libmbedtls.a ../library/libmbedx509.a ../crypto/library/libmbedcrypto.a 

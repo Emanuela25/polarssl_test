@@ -1,0 +1,1 @@
+/usr/bin/gcc  -g -fprofile-arcs -ftest-coverage -Wno-unused-function   CMakeFiles/crypto.test_suite_pkcs1_v21.dir/test_suite_pkcs1_v21.c.o  -o crypto.test_suite_pkcs1_v21 -rdynamic ../library/libmbedcrypto.a 

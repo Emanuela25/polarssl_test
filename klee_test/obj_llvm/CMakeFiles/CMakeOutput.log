@@ -1,0 +1,234 @@
+The system is: Linux - 4.15.0-51-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/local/bin/wllvm 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced ".CMakeCCompilerId.o"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced ".CMakeCCompilerId.o.bc"
+
+The C compiler identification is Clang, found in "/home/grace/Desktop/polarssl_test/klee_test/obj_llvm/CMakeFiles/3.5.1/CompilerIdC/.CMakeCCompilerId.o"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/grace/Desktop/polarssl_test/klee_test/obj_llvm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0bcbb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0bcbb.dir/build.make CMakeFiles/cmTC_0bcbb.dir/build
+make[1]: Entering directory '/home/grace/Desktop/polarssl_test/klee_test/obj_llvm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0bcbb.dir/testCCompiler.c.o
+/usr/local/bin/wllvm     -o CMakeFiles/cmTC_0bcbb.dir/testCCompiler.c.o   -c /home/grace/Desktop/polarssl_test/klee_test/obj_llvm/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_0bcbb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0bcbb.dir/link.txt --verbose=1
+/usr/local/bin/wllvm       CMakeFiles/cmTC_0bcbb.dir/testCCompiler.c.o  -o cmTC_0bcbb -rdynamic 
+make[1]: Leaving directory '/home/grace/Desktop/polarssl_test/klee_test/obj_llvm/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/grace/Desktop/polarssl_test/klee_test/obj_llvm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e8140/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e8140.dir/build.make CMakeFiles/cmTC_e8140.dir/build
+make[1]: Entering directory '/home/grace/Desktop/polarssl_test/klee_test/obj_llvm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e8140.dir/CMakeCCompilerABI.c.o
+/usr/local/bin/wllvm     -o CMakeFiles/cmTC_e8140.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_e8140
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8140.dir/link.txt --verbose=1
+/usr/local/bin/wllvm      -v CMakeFiles/cmTC_e8140.dir/CMakeCCompilerABI.c.o  -o cmTC_e8140 -rdynamic  
+clang version 6.0.0-1ubuntu2~16.04.1 (tags/RELEASE_600/final)
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/5
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6.0.0
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/5
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/5.4.0
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.0.0
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e8140 /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/usr/lib/llvm-6.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_e8140.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/grace/Desktop/polarssl_test/klee_test/obj_llvm/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/grace/Desktop/polarssl_test/klee_test/obj_llvm/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_e8140/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_e8140.dir/build.make CMakeFiles/cmTC_e8140.dir/build]
+  ignore line: [make[1]: Entering directory '/home/grace/Desktop/polarssl_test/klee_test/obj_llvm/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_e8140.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/local/bin/wllvm     -o CMakeFiles/cmTC_e8140.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_e8140]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8140.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/wllvm      -v CMakeFiles/cmTC_e8140.dir/CMakeCCompilerABI.c.o  -o cmTC_e8140 -rdynamic  ]
+  ignore line: [clang version 6.0.0-1ubuntu2~16.04.1 (tags/RELEASE_600/final)]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/bin]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/5]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6.0.0]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/5]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/5.4.0]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.0.0]
+  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e8140 /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/usr/lib/llvm-6.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_e8140.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_e8140] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o] ==> ignore
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0]
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../..] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../..]
+    arg [-L/usr/lib/llvm-6.0/bin/../lib] ==> dir [/usr/lib/llvm-6.0/bin/../lib]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_e8140.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0] ==> [/usr/lib/gcc/x86_64-linux-gnu/5.4.0]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../..] ==> [/usr/lib]
+  collapse library dir [/usr/lib/llvm-6.0/bin/../lib] ==> [/usr/lib/llvm-6.0/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5.4.0;/usr/lib/x86_64-linux-gnu;/lib/x86_64-linux-gnu;/lib64;/usr/lib;/usr/lib/llvm-6.0/lib;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/grace/Desktop/polarssl_test/klee_test/obj_llvm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6c110/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6c110.dir/build.make CMakeFiles/cmTC_6c110.dir/build
+make[1]: Entering directory '/home/grace/Desktop/polarssl_test/klee_test/obj_llvm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6c110.dir/feature_tests.c.o
+/usr/local/bin/wllvm    -std=c11 -o CMakeFiles/cmTC_6c110.dir/feature_tests.c.o   -c /home/grace/Desktop/polarssl_test/klee_test/obj_llvm/CMakeFiles/feature_tests.c
+Linking C executable cmTC_6c110
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c110.dir/link.txt --verbose=1
+/usr/local/bin/wllvm       CMakeFiles/cmTC_6c110.dir/feature_tests.c.o  -o cmTC_6c110 -rdynamic 
+make[1]: Leaving directory '/home/grace/Desktop/polarssl_test/klee_test/obj_llvm/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/grace/Desktop/polarssl_test/klee_test/obj_llvm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d8566/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d8566.dir/build.make CMakeFiles/cmTC_d8566.dir/build
+make[1]: Entering directory '/home/grace/Desktop/polarssl_test/klee_test/obj_llvm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d8566.dir/feature_tests.c.o
+/usr/local/bin/wllvm    -std=c99 -o CMakeFiles/cmTC_d8566.dir/feature_tests.c.o   -c /home/grace/Desktop/polarssl_test/klee_test/obj_llvm/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d8566
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8566.dir/link.txt --verbose=1
+/usr/local/bin/wllvm       CMakeFiles/cmTC_d8566.dir/feature_tests.c.o  -o cmTC_d8566 -rdynamic 
+make[1]: Leaving directory '/home/grace/Desktop/polarssl_test/klee_test/obj_llvm/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/grace/Desktop/polarssl_test/klee_test/obj_llvm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2dc40/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2dc40.dir/build.make CMakeFiles/cmTC_2dc40.dir/build
+make[1]: Entering directory '/home/grace/Desktop/polarssl_test/klee_test/obj_llvm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2dc40.dir/feature_tests.c.o
+/usr/local/bin/wllvm    -std=c90 -o CMakeFiles/cmTC_2dc40.dir/feature_tests.c.o   -c /home/grace/Desktop/polarssl_test/klee_test/obj_llvm/CMakeFiles/feature_tests.c
+Linking C executable cmTC_2dc40
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2dc40.dir/link.txt --verbose=1
+/usr/local/bin/wllvm       CMakeFiles/cmTC_2dc40.dir/feature_tests.c.o  -o cmTC_2dc40 -rdynamic 
+make[1]: Leaving directory '/home/grace/Desktop/polarssl_test/klee_test/obj_llvm/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/grace/Desktop/polarssl_test/klee_test/obj_llvm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fe28a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fe28a.dir/build.make CMakeFiles/cmTC_fe28a.dir/build
+make[1]: Entering directory '/home/grace/Desktop/polarssl_test/klee_test/obj_llvm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fe28a.dir/CheckIncludeFile.c.o
+/usr/local/bin/wllvm    -g -O1 -Xclang -disable-llvm-passes -D__NO_STRING_INLINES  -D_FORTIFY_SOURCE=0 -U__OPTIMIZE__    -o CMakeFiles/cmTC_fe28a.dir/CheckIncludeFile.c.o   -c /home/grace/Desktop/polarssl_test/klee_test/obj_llvm/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fe28a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe28a.dir/link.txt --verbose=1
+/usr/local/bin/wllvm  -g -O1 -Xclang -disable-llvm-passes -D__NO_STRING_INLINES  -D_FORTIFY_SOURCE=0 -U__OPTIMIZE__     CMakeFiles/cmTC_fe28a.dir/CheckIncludeFile.c.o  -o cmTC_fe28a -rdynamic 
+make[1]: Leaving directory '/home/grace/Desktop/polarssl_test/klee_test/obj_llvm/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/grace/Desktop/polarssl_test/klee_test/obj_llvm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_82e5c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_82e5c.dir/build.make CMakeFiles/cmTC_82e5c.dir/build
+make[1]: Entering directory '/home/grace/Desktop/polarssl_test/klee_test/obj_llvm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_82e5c.dir/CheckFunctionExists.c.o
+/usr/local/bin/wllvm    -g -O1 -Xclang -disable-llvm-passes -D__NO_STRING_INLINES  -D_FORTIFY_SOURCE=0 -U__OPTIMIZE__ -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_82e5c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_82e5c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82e5c.dir/link.txt --verbose=1
+/usr/local/bin/wllvm  -g -O1 -Xclang -disable-llvm-passes -D__NO_STRING_INLINES  -D_FORTIFY_SOURCE=0 -U__OPTIMIZE__ -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_82e5c.dir/CheckFunctionExists.c.o  -o cmTC_82e5c -rdynamic -lpthread 
+make[1]: Leaving directory '/home/grace/Desktop/polarssl_test/klee_test/obj_llvm/CMakeFiles/CMakeTmp'
+
+

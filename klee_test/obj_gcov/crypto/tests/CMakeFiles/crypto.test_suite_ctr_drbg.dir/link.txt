@@ -1,0 +1,1 @@
+/usr/bin/gcc  -g -fprofile-arcs -ftest-coverage -Wno-unused-function   CMakeFiles/crypto.test_suite_ctr_drbg.dir/test_suite_ctr_drbg.c.o  -o crypto.test_suite_ctr_drbg -rdynamic ../library/libmbedcrypto.a 

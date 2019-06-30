@@ -1,0 +1,1 @@
+/usr/local/bin/wllvm  -g -O1 -Xclang -disable-llvm-passes -D__NO_STRING_INLINES  -D_FORTIFY_SOURCE=0 -U__OPTIMIZE__   CMakeFiles/udp_proxy.dir/udp_proxy.c.o  -o udp_proxy -rdynamic ../../library/libmbedtls.a ../../library/libmbedx509.a ../../crypto/library/libmbedcrypto.a 

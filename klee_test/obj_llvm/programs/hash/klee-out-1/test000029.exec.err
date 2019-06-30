@@ -1,0 +1,8 @@
+Error: external call with symbolic argument: printf
+File: /home/grace/Desktop/polarssl_test/mbedtls/programs/hash/generic_sum.c
+Line: 78
+assembly.ll line: 2998
+Stack: 
+	#000002998 in __user_main (=7, =25959936) at /home/grace/Desktop/polarssl_test/mbedtls/programs/hash/generic_sum.c:78
+	#100000484 in __uClibc_main (=7, =25959936) at libc/misc/internals/__uClibc_main.c:401
+	#200000650 in main (=7, =25959936)

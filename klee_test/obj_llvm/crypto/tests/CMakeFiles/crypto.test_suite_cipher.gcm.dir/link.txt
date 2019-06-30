@@ -1,0 +1,1 @@
+/usr/local/bin/wllvm  -g -O1 -Xclang -disable-llvm-passes -D__NO_STRING_INLINES  -D_FORTIFY_SOURCE=0 -U__OPTIMIZE__ -Wno-unused-function   CMakeFiles/crypto.test_suite_cipher.gcm.dir/test_suite_cipher.gcm.c.o  -o crypto.test_suite_cipher.gcm -rdynamic ../library/libmbedcrypto.a 

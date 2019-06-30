@@ -1,0 +1,1 @@
+/usr/bin/gcc  -g -fprofile-arcs -ftest-coverage -Wno-unused-function   CMakeFiles/crypto.test_suite_memory_buffer_alloc.dir/test_suite_memory_buffer_alloc.c.o  -o crypto.test_suite_memory_buffer_alloc -rdynamic ../library/libmbedcrypto.a 

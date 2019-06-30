@@ -1,0 +1,22 @@
+klee --optimize --libc=uclibc --posix-runtime ./generic_sum.bc --sym-arg 10 A -sym-files 1 10
+PID: 15250
+Using monotonic steady clock with 1/1000000000s resolution
+Started: 2019-06-29 23:33:37
+BEGIN searcher description
+<InterleavedSearcher> containing 2 searchers:
+RandomPathSearcher
+WeightedRandomSearcher::CoveringNew
+</InterleavedSearcher>
+END searcher description
+Finished: 2019-06-29 23:34:42
+Elapsed: 00:01:05
+KLEE: done: explored paths = 44
+KLEE: done: avg. constructs per query = 246
+KLEE: done: total queries = 1217
+KLEE: done: valid queries = 1133
+KLEE: done: invalid queries = 84
+KLEE: done: query cex = 1217
+
+KLEE: done: total instructions = 439905
+KLEE: done: completed paths = 44
+KLEE: done: generated tests = 29

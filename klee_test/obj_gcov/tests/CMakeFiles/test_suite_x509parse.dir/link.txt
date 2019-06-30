@@ -1,0 +1,1 @@
+/usr/bin/gcc  -g -fprofile-arcs -ftest-coverage -Wno-unused-function   CMakeFiles/test_suite_x509parse.dir/test_suite_x509parse.c.o  -o test_suite_x509parse -rdynamic ../library/libmbedtls.a ../library/libmbedx509.a ../crypto/library/libmbedcrypto.a 

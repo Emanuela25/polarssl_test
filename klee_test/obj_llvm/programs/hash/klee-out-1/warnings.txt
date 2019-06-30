@@ -1,0 +1,7 @@
+KLEE: WARNING: undefined reference to function: puts
+KLEE: WARNING ONCE: calling external: syscall(16, 0, 21505, 58505984) at /home/grace/Downloads/klee/runtime/POSIX/fd.c:990 10
+KLEE: WARNING ONCE: calling __user_main with extra arguments.
+KLEE: WARNING ONCE: Alignment of memory from call "malloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: Alignment of memory from call "calloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: calling external: vprintf(57969824, 58940928) at libc/stdio/fprintf.c:35 14
+KLEE: WARNING ONCE: ioctl: (TCGETS) symbolic file, incomplete model

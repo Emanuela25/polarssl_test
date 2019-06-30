@@ -1,0 +1,8 @@
+KLEE: Using STP solver backend
+KLEE: WorkaroundLLVMPR39177: replaced alias @fputc with clone of function @__fputc_unlocked
+KLEE: WorkaroundLLVMPR39177: replaced alias @fputc_unlocked with clone of function @__fputc_unlocked
+KLEE: WorkaroundLLVMPR39177: replaced alias @fputs with clone of function @fputs_unlocked
+KLEE: WorkaroundLLVMPR39177: replaced alias @fwrite with clone of function @fwrite_unlocked
+KLEE: WorkaroundLLVMPR39177: replaced alias @fgetc_unlocked with clone of function @__fgetc_unlocked
+KLEE: ERROR: /home/grace/Desktop/polarssl_test/mbedtls/programs/hash/generic_sum.c:78: external call with symbolic argument: printf
+KLEE: NOTE: now ignoring this error at this location

@@ -1,0 +1,1 @@
+/usr/bin/gcc  -g -fprofile-arcs -ftest-coverage -Wno-unused-function   CMakeFiles/crypto.test_suite_timing.dir/test_suite_timing.c.o  -o crypto.test_suite_timing -rdynamic ../library/libmbedcrypto.a 

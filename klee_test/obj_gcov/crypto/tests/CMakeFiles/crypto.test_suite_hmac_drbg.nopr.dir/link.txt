@@ -1,0 +1,1 @@
+/usr/bin/gcc  -g -fprofile-arcs -ftest-coverage -Wno-unused-function   CMakeFiles/crypto.test_suite_hmac_drbg.nopr.dir/test_suite_hmac_drbg.nopr.c.o  -o crypto.test_suite_hmac_drbg.nopr -rdynamic ../library/libmbedcrypto.a 

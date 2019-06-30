@@ -1,0 +1,1 @@
+/usr/local/bin/wllvm  -g -O1 -Xclang -disable-llvm-passes -D__NO_STRING_INLINES  -D_FORTIFY_SOURCE=0 -U__OPTIMIZE__   CMakeFiles/crypt_and_hash.dir/crypt_and_hash.c.o  -o crypt_and_hash -rdynamic ../../library/libmbedtls.a ../../library/libmbedx509.a ../../crypto/library/libmbedcrypto.a 
